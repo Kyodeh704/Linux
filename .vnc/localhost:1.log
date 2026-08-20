@@ -1,0 +1,78 @@
+
+Xvnc TigerVNC 1.16.2 - built Apr 29 2026 05:55:51
+Copyright (C) 1999-2026 TigerVNC team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101016
+
+Built without GBM support
+Failed to initialize DRI3 extension
+Sync Extension 3.1
+
+Wed Aug 19 18:23:53 2026
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      Created VNC server for screen 0
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-1.xkm"', fp = 0xb400007282d56018
+Pclose: fp = 0xb400007282d56018
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Multiple symbols for level 1/group 1 on key <FK23>
+>                   Using F23, ignoring XF86TouchpadOff
+> Warning:          Symbol map for key <FK23> redefined
+>                   Using last definition for conflicting fields
+> Warning:          Symbol map for key <FK24> redefined
+>                   Using last definition for conflicting fields
+> Warning:          Could not resolve keysym XF86ElectronicPrivacyScreenOn
+> Warning:          Could not resolve keysym XF86ElectronicPrivacyScreenOff
+> Warning:          Could not resolve keysym XF86ActionOnSelection
+> Warning:          Could not resolve keysym XF86ContextualInsert
+> Warning:          Could not resolve keysym XF86ContextualQuery
+Errors from xkbcomp are not fatal to the X server
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-1.xkm, defined=0x7f
+client(0): Reserved pid(11637).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:1 -auth /data/data/com.termux/files/home/.Xauthority -depth 16 -desktop localhost:1 () -geometry 1280x720 -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5901).
+[mi] mieq: warning: overriding existing handler 0x0 with 0x645b77be60 for event 2
+[mi] mieq: warning: overriding existing handler 0x0 with 0x645b77be60 for event 3
+/data/data/com.termux/files/home/.vnc/xstartup: 7: aterm: not found
+/data/data/com.termux/files/home/.vnc/xstartup: 11: twm: not found
+
+Wed Aug 19 18:24:55 2026
+ Connections: Accepted: 127.0.0.1::51796
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Aug 19 18:30:52 2026
+ Connections: Accepted: 127.0.0.1::52192
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ VNCSConnST:  Closing 127.0.0.1::51796: readTLS: The TLS connection was
+              non-properly terminated. (-110)
+ EncodeManager: Framebuffer updates: 2
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 15 rects, 921.6 kpixels
+ EncodeManager:            240 B (1:15360.8 ratio)
+ EncodeManager:   Total: 15 rects, 921.6 kpixels
+ EncodeManager:          240 B (1:15360.8 ratio)
+ Connections: Closed: 127.0.0.1::51796
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Aug 19 18:30:58 2026
+ VNCSConnST:  Closing 127.0.0.1::52192: readTLS: The TLS connection was
+              non-properly terminated. (-110)
+ EncodeManager: Framebuffer updates: 2
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 15 rects, 921.6 kpixels
+ EncodeManager:            240 B (1:15360.8 ratio)
+ EncodeManager:   Total: 15 rects, 921.6 kpixels
+ EncodeManager:          240 B (1:15360.8 ratio)
+ Connections: Closed: 127.0.0.1::52192

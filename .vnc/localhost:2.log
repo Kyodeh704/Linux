@@ -1,0 +1,42 @@
+
+Xvnc TigerVNC 1.16.2 - built Apr 29 2026 05:55:51
+Copyright (C) 1999-2026 TigerVNC team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101016
+
+Built without GBM support
+Failed to initialize DRI3 extension
+Sync Extension 3.1
+
+Wed Aug 19 19:04:46 2026
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5902
+ vncext:      Created VNC server for screen 0
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-2.xkm"', fp = 0xb400007c72556018
+Pclose: fp = 0xb400007c72556018
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Multiple symbols for level 1/group 1 on key <FK23>
+>                   Using F23, ignoring XF86TouchpadOff
+> Warning:          Symbol map for key <FK23> redefined
+>                   Using last definition for conflicting fields
+> Warning:          Symbol map for key <FK24> redefined
+>                   Using last definition for conflicting fields
+> Warning:          Could not resolve keysym XF86ElectronicPrivacyScreenOn
+> Warning:          Could not resolve keysym XF86ElectronicPrivacyScreenOff
+> Warning:          Could not resolve keysym XF86ActionOnSelection
+> Warning:          Could not resolve keysym XF86ContextualInsert
+> Warning:          Could not resolve keysym XF86ContextualQuery
+Errors from xkbcomp are not fatal to the X server
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-2.xkm, defined=0x7f
+client(0): Reserved pid(20571).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:2 -auth /data/data/com.termux/files/home/.Xauthority -depth 16 -desktop localhost:2 () -geometry 1280x720 -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5902 -localhost).
+[mi] mieq: warning: overriding existing handler 0x0 with 0x56e23cae60 for event 2
+[mi] mieq: warning: overriding existing handler 0x0 with 0x56e23cae60 for event 3
+/data/data/com.termux/files/home/.vnc/xstartup: 7: aterm: not found
+/data/data/com.termux/files/home/.vnc/xstartup: 11: twm: not found
